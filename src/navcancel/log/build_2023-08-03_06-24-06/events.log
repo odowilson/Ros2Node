@@ -1,0 +1,119 @@
+[0.000000] (-) TimerEvent: {}
+[0.001066] (navcancel) JobQueued: {'identifier': 'navcancel', 'dependencies': OrderedDict()}
+[0.001138] (navcancel) JobStarted: {'identifier': 'navcancel'}
+[0.014671] (navcancel) JobProgress: {'identifier': 'navcancel', 'progress': 'cmake'}
+[0.015395] (navcancel) Command: {'cmd': ['/usr/bin/cmake', '/home/uc/ros2_humble_ws/src/navcancel', '-DCMAKE_INSTALL_PREFIX=/home/uc/ros2_humble_ws/src/navcancel/install/navcancel'], 'cwd': '/home/uc/ros2_humble_ws/src/navcancel/build/navcancel', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'uc'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/uc'), ('OLDPWD', '/home/uc/ros2_humble_ws/src/navcancel/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('SYSTEMD_EXEC_PID', '1969'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/uc/ros2_humble_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'uc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'uc'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/uc/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/UC:@/tmp/.ICE-unix/1947,unix/UC:/tmp/.ICE-unix/1947'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a63fe312_e344_4227_a161_2dd5ae680a10'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uc/ros2_humble_ws/src/navcancel/build/navcancel'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.030449] (navcancel) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099399] (-) TimerEvent: {}
+[0.168776] (navcancel) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.194608] (navcancel) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.197145] (navcancel) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.200063] (-) TimerEvent: {}
+[0.202342] (navcancel) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.212327] (navcancel) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.225966] (navcancel) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.279033] (navcancel) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.280378] (navcancel) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.300396] (-) TimerEvent: {}
+[0.393060] (navcancel) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400939] (-) TimerEvent: {}
+[0.501774] (-) TimerEvent: {}
+[0.535151] (navcancel) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.8 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[0.602571] (-) TimerEvent: {}
+[0.703583] (-) TimerEvent: {}
+[0.804564] (-) TimerEvent: {}
+[0.879393] (navcancel) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.904959] (-) TimerEvent: {}
+[0.949112] (navcancel) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.949340] (navcancel) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.949435] (navcancel) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.950209] (navcancel) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.951751] (navcancel) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.953160] (navcancel) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.957841] (navcancel) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.958008] (navcancel) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.958796] (navcancel) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.959556] (navcancel) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.974512] (navcancel) StdoutLine: {'line': b'-- Generating done\n'}
+[0.976664] (navcancel) StdoutLine: {'line': b'-- Build files have been written to: /home/uc/ros2_humble_ws/src/navcancel/build/navcancel\n'}
+[0.987678] (navcancel) CommandEnded: {'returncode': 0}
+[0.988395] (navcancel) JobProgress: {'identifier': 'navcancel', 'progress': 'build'}
+[0.988466] (navcancel) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/uc/ros2_humble_ws/src/navcancel/build/navcancel', '--', '-j4', '-l4'], 'cwd': '/home/uc/ros2_humble_ws/src/navcancel/build/navcancel', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'uc'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/uc'), ('OLDPWD', '/home/uc/ros2_humble_ws/src/navcancel/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('SYSTEMD_EXEC_PID', '1969'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/uc/ros2_humble_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'uc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'uc'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/uc/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/UC:@/tmp/.ICE-unix/1947,unix/UC:/tmp/.ICE-unix/1947'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a63fe312_e344_4227_a161_2dd5ae680a10'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uc/ros2_humble_ws/src/navcancel/build/navcancel'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.005384] (-) TimerEvent: {}
+[1.047349] (navcancel) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/navcancel.dir/src/navcancel.cpp.o\x1b[0m\n'}
+[1.105774] (-) TimerEvent: {}
+[1.206494] (-) TimerEvent: {}
+[1.307551] (-) TimerEvent: {}
+[1.408017] (-) TimerEvent: {}
+[1.508506] (-) TimerEvent: {}
+[1.609438] (-) TimerEvent: {}
+[1.709870] (-) TimerEvent: {}
+[1.810578] (-) TimerEvent: {}
+[1.911579] (-) TimerEvent: {}
+[2.012129] (-) TimerEvent: {}
+[2.113022] (-) TimerEvent: {}
+[2.213667] (-) TimerEvent: {}
+[2.314624] (-) TimerEvent: {}
+[2.415221] (-) TimerEvent: {}
+[2.515927] (-) TimerEvent: {}
+[2.616611] (-) TimerEvent: {}
+[2.717457] (-) TimerEvent: {}
+[2.818173] (-) TimerEvent: {}
+[2.918813] (-) TimerEvent: {}
+[3.019620] (-) TimerEvent: {}
+[3.120594] (-) TimerEvent: {}
+[3.221401] (-) TimerEvent: {}
+[3.322266] (-) TimerEvent: {}
+[3.422918] (-) TimerEvent: {}
+[3.523795] (-) TimerEvent: {}
+[3.624776] (-) TimerEvent: {}
+[3.725581] (-) TimerEvent: {}
+[3.826227] (-) TimerEvent: {}
+[3.926779] (-) TimerEvent: {}
+[4.027666] (-) TimerEvent: {}
+[4.128476] (-) TimerEvent: {}
+[4.229258] (-) TimerEvent: {}
+[4.329909] (-) TimerEvent: {}
+[4.430454] (-) TimerEvent: {}
+[4.531233] (-) TimerEvent: {}
+[4.631997] (-) TimerEvent: {}
+[4.732881] (-) TimerEvent: {}
+[4.833794] (-) TimerEvent: {}
+[4.934523] (-) TimerEvent: {}
+[5.035340] (-) TimerEvent: {}
+[5.136025] (-) TimerEvent: {}
+[5.236933] (-) TimerEvent: {}
+[5.337466] (-) TimerEvent: {}
+[5.438512] (-) TimerEvent: {}
+[5.539218] (-) TimerEvent: {}
+[5.640034] (-) TimerEvent: {}
+[5.740896] (-) TimerEvent: {}
+[5.820196] (navcancel) StderrLine: {'line': b'\x1b[01m\x1b[K/home/uc/ros2_humble_ws/src/navcancel/src/navcancel.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.820904] (navcancel) StderrLine: {'line': b'\x1b[01m\x1b[K/home/uc/ros2_humble_ws/src/navcancel/src/navcancel.cpp:11:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[5.820985] (navcancel) StderrLine: {'line': b'   11 |     auto action_client = \x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::create_client<NavigateToPose>(node, "/navigate_to_pose");\n'}
+[5.821030] (navcancel) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.821071] (navcancel) StderrLine: {'line': b'\x1b[01m\x1b[K/home/uc/ros2_humble_ws/src/navcancel/src/navcancel.cpp:11:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.821113] (navcancel) StderrLine: {'line': b'   11 |  action_client = rclcpp_action::create_client<NavigateToPose\x1b[01;31m\x1b[K>\x1b[m\x1b[K(node, "/navigate_to_pose");\n'}
+[5.821154] (navcancel) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.821194] (navcancel) StderrLine: {'line': b'\n'}
+[5.821235] (navcancel) StderrLine: {'line': b'\x1b[01m\x1b[K/home/uc/ros2_humble_ws/src/navcancel/src/navcancel.cpp:11:71:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.821280] (navcancel) StderrLine: {'line': b'   11 | ction_client = rclcpp_action::create_client<NavigateToPose>(\x1b[01;35m\x1b[Knode\x1b[m\x1b[K, "/navigate_to_pose");\n'}
+[5.821322] (navcancel) StderrLine: {'line': b'      |                                                             \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.821447] (navcancel) StderrLine: {'line': b'\n'}
+[5.821536] (navcancel) StderrLine: {'line': b'\x1b[01m\x1b[K/home/uc/ros2_humble_ws/src/navcancel/src/navcancel.cpp:16:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp_action\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[5.821598] (navcancel) StderrLine: {'line': b'   16 |     if (cancel_result.code == \x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ResultCode::SUCCESS) {\n'}
+[5.821644] (navcancel) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.841419] (-) TimerEvent: {}
+[5.942116] (-) TimerEvent: {}
+[6.042997] (-) TimerEvent: {}
+[6.144040] (-) TimerEvent: {}
+[6.244988] (-) TimerEvent: {}
+[6.346064] (-) TimerEvent: {}
+[6.447127] (-) TimerEvent: {}
+[6.547879] (-) TimerEvent: {}
+[6.581963] (navcancel) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/navcancel.dir/build.make:76: CMakeFiles/navcancel.dir/src/navcancel.cpp.o] Error 1\n'}
+[6.582742] (navcancel) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navcancel.dir/all] Error 2\n'}
+[6.583306] (navcancel) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.586802] (navcancel) CommandEnded: {'returncode': 2}
+[6.642679] (navcancel) JobEnded: {'identifier': 'navcancel', 'rc': 2}
+[6.644460] (-) EventReactorShutdown: {}

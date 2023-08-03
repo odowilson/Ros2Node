@@ -1,0 +1,18 @@
+[01m[K/home/uc/ros2_humble_ws/src/navcancel/src/navcancel.cpp:[m[K In function ‘[01m[Kvoid cancelAllGoals()[m[K’:
+[01m[K/home/uc/ros2_humble_ws/src/navcancel/src/navcancel.cpp:6:27:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ was not declared in this scope; did you mean ‘[01m[Knav2_msgs[m[K’?
+    6 |     rclcpp_action::Client<[01;31m[Knav_msgs[m[K::action::NavigateToPose>::SharedPtr client =
+      |                           [01;31m[K^~~~~~~~[m[K
+      |                           [32m[Knav2_msgs[m[K
+[01m[K/home/uc/ros2_humble_ws/src/navcancel/src/navcancel.cpp:6:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    6 |     rclcpp_action::Client<nav_msgs::action::NavigateToPose[01;31m[K>[m[K::SharedPtr client =
+      |                                                           [01;31m[K^[m[K
+[01m[K/home/uc/ros2_humble_ws/src/navcancel/src/navcancel.cpp:6:72:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[Kclient[m[K’
+    6 | pp_action::Client<nav_msgs::action::NavigateToPose>::SharedPtr [01;31m[Kclient[m[K =
+      |                                                                [01;31m[K^~~~~~[m[K
+
+[01m[K/home/uc/ros2_humble_ws/src/navcancel/src/navcancel.cpp:8:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+    8 |     [01;31m[Kclient[m[K->async_cancel_all_goals();
+      |     [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/navcancel.dir/build.make:76: CMakeFiles/navcancel.dir/src/navcancel.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navcancel.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

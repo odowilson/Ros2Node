@@ -1,0 +1,11 @@
+[0.058s] Invoking command in '/home/uc/ros2_humble_ws/src/navcancel/build/navcancel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/uc/ros2_humble_ws/src/navcancel/build/navcancel -- -j4 -l4
+[0.227s] [35m[1mConsolidate compiler generated dependencies of target navcancel[0m
+[0.291s] [ 50%] [32mBuilding CXX object CMakeFiles/navcancel.dir/src/navcancel.cpp.o[0m
+[10.500s] [01m[K/home/uc/ros2_humble_ws/src/navcancel/src/navcancel.cpp:[m[K In function ‘[01m[Kvoid cancelAllGoals()[m[K’:
+[10.500s] [01m[K/home/uc/ros2_humble_ws/src/navcancel/src/navcancel.cpp:27:43:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_action::FutureReturnCode[m[K’ has not been declared
+[10.500s]    27 |     while (rclcpp::ok() && rclcpp_action::[01;31m[KFutureReturnCode[m[K::SUCCESS != future.wait_for(std::chrono::seconds(1))) {
+[10.500s]       |                                           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[13.430s] gmake[2]: *** [CMakeFiles/navcancel.dir/build.make:76: CMakeFiles/navcancel.dir/src/navcancel.cpp.o] Error 1
+[13.432s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navcancel.dir/all] Error 2
+[13.432s] gmake: *** [Makefile:146: all] Error 2
+[13.438s] Invoked command in '/home/uc/ros2_humble_ws/src/navcancel/build/navcancel' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/uc/ros2_humble_ws/src/navcancel/build/navcancel -- -j4 -l4

@@ -1,0 +1,11 @@
+[0.021s] Invoking command in '/home/uc/ros2_humble_ws/src/navcancel/build/navcancel': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/uc/ros2_humble_ws/src/navcancel/build/navcancel -- -j4 -l4
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target navcancel[0m
+[0.089s] [ 50%] [32mBuilding CXX object CMakeFiles/navcancel.dir/src/navcancel.cpp.o[0m
+[0.276s] [01m[K/home/uc/ros2_humble_ws/src/navcancel/src/navcancel.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Krclcpp_action/rclcpp_action.hpp: No such file or directory
+[0.276s]     2 | #include [01;31m[K"rclcpp_action/rclcpp_action.hpp"[m[K
+[0.276s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.277s] compilation terminated.
+[0.280s] gmake[2]: *** [CMakeFiles/navcancel.dir/build.make:76: CMakeFiles/navcancel.dir/src/navcancel.cpp.o] Error 1
+[0.281s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navcancel.dir/all] Error 2
+[0.281s] gmake: *** [Makefile:146: all] Error 2
+[0.283s] Invoked command in '/home/uc/ros2_humble_ws/src/navcancel/build/navcancel' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/uc/ros2_humble_ws/src/navcancel/build/navcancel -- -j4 -l4

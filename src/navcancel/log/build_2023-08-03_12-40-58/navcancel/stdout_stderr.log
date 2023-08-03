@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target navcancel[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/navcancel.dir/src/navcancel.cpp.o[0m
+[01m[K/home/uc/ros2_humble_ws/src/navcancel/src/navcancel.cpp:[m[K In function ‘[01m[Kvoid cancelAllGoals()[m[K’:
+[01m[K/home/uc/ros2_humble_ws/src/navcancel/src/navcancel.cpp:13:37:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   13 |     client->wait_for_action_server()[01;31m[K->[m[Kwait_for_result();
+      |                                     [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/navcancel.dir/build.make:76: CMakeFiles/navcancel.dir/src/navcancel.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navcancel.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

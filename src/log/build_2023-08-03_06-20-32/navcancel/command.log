@@ -1,0 +1,2 @@
+Invoking command in '/home/uc/ros2_humble_ws/src/build/navcancel': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/uc/ros2_humble_ws/src/navcancel -DCMAKE_INSTALL_PREFIX=/home/uc/ros2_humble_ws/src/install/navcancel
+Invoked command in '/home/uc/ros2_humble_ws/src/build/navcancel' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/uc/ros2_humble_ws/src/navcancel -DCMAKE_INSTALL_PREFIX=/home/uc/ros2_humble_ws/src/install/navcancel

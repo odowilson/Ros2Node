@@ -1,0 +1,174 @@
+[0.000000] (-) TimerEvent: {}
+[0.000465] (navcancel) JobQueued: {'identifier': 'navcancel', 'dependencies': OrderedDict()}
+[0.000570] (navcancel) JobStarted: {'identifier': 'navcancel'}
+[0.054230] (navcancel) JobProgress: {'identifier': 'navcancel', 'progress': 'cmake'}
+[0.054793] (navcancel) JobProgress: {'identifier': 'navcancel', 'progress': 'build'}
+[0.054896] (navcancel) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/uc/ros2_humble_ws/src/navcancel/build/navcancel', '--', '-j4', '-l4'], 'cwd': '/home/uc/ros2_humble_ws/src/navcancel/build/navcancel', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'uc'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/uc'), ('OLDPWD', '/home/uc/ros2_humble_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('SYSTEMD_EXEC_PID', '1813'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/uc/ros2_humble_ws/src/navcancel/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'uc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'uc'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/uc/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/UC:@/tmp/.ICE-unix/1787,unix/UC:/tmp/.ICE-unix/1787'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c09b6dd3_cf6f_4293_af85_7389bd898a9c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UW7781'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/uc/ros2_humble_ws/src/navcancel/install/navcancel:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uc/ros2_humble_ws/src/navcancel/build/navcancel'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/uc/ros2_humble_ws/src/navcancel/install/navcancel:/opt/ros/humble')]), 'shell': False}
+[0.088934] (-) TimerEvent: {}
+[0.190393] (-) TimerEvent: {}
+[0.222863] (navcancel) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target navcancel\x1b[0m\n'}
+[0.282777] (navcancel) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/navcancel.dir/src/navcancel.cpp.o\x1b[0m\n'}
+[0.290749] (-) TimerEvent: {}
+[0.391784] (-) TimerEvent: {}
+[0.492555] (-) TimerEvent: {}
+[0.593974] (-) TimerEvent: {}
+[0.695765] (-) TimerEvent: {}
+[0.796936] (-) TimerEvent: {}
+[0.898369] (-) TimerEvent: {}
+[0.999682] (-) TimerEvent: {}
+[1.101332] (-) TimerEvent: {}
+[1.202076] (-) TimerEvent: {}
+[1.303549] (-) TimerEvent: {}
+[1.404690] (-) TimerEvent: {}
+[1.506067] (-) TimerEvent: {}
+[1.607419] (-) TimerEvent: {}
+[1.708722] (-) TimerEvent: {}
+[1.809669] (-) TimerEvent: {}
+[1.910745] (-) TimerEvent: {}
+[2.012512] (-) TimerEvent: {}
+[2.113695] (-) TimerEvent: {}
+[2.215004] (-) TimerEvent: {}
+[2.316474] (-) TimerEvent: {}
+[2.417871] (-) TimerEvent: {}
+[2.518677] (-) TimerEvent: {}
+[2.620112] (-) TimerEvent: {}
+[2.721624] (-) TimerEvent: {}
+[2.822466] (-) TimerEvent: {}
+[2.923603] (-) TimerEvent: {}
+[3.024890] (-) TimerEvent: {}
+[3.126835] (-) TimerEvent: {}
+[3.228220] (-) TimerEvent: {}
+[3.329170] (-) TimerEvent: {}
+[3.429878] (-) TimerEvent: {}
+[3.531295] (-) TimerEvent: {}
+[3.633162] (-) TimerEvent: {}
+[3.734077] (-) TimerEvent: {}
+[3.835181] (-) TimerEvent: {}
+[3.938654] (-) TimerEvent: {}
+[4.040965] (-) TimerEvent: {}
+[4.142463] (-) TimerEvent: {}
+[4.243525] (-) TimerEvent: {}
+[4.344856] (-) TimerEvent: {}
+[4.445983] (-) TimerEvent: {}
+[4.547986] (-) TimerEvent: {}
+[4.649226] (-) TimerEvent: {}
+[4.750348] (-) TimerEvent: {}
+[4.851568] (-) TimerEvent: {}
+[4.953271] (-) TimerEvent: {}
+[5.054546] (-) TimerEvent: {}
+[5.156473] (-) TimerEvent: {}
+[5.257628] (-) TimerEvent: {}
+[5.359721] (-) TimerEvent: {}
+[5.460919] (-) TimerEvent: {}
+[5.562038] (-) TimerEvent: {}
+[5.663212] (-) TimerEvent: {}
+[5.764911] (-) TimerEvent: {}
+[5.866263] (-) TimerEvent: {}
+[5.967789] (-) TimerEvent: {}
+[6.069356] (-) TimerEvent: {}
+[6.170574] (-) TimerEvent: {}
+[6.272044] (-) TimerEvent: {}
+[6.373549] (-) TimerEvent: {}
+[6.474901] (-) TimerEvent: {}
+[6.575758] (-) TimerEvent: {}
+[6.676757] (-) TimerEvent: {}
+[6.778387] (-) TimerEvent: {}
+[6.879695] (-) TimerEvent: {}
+[6.981324] (-) TimerEvent: {}
+[7.082443] (-) TimerEvent: {}
+[7.183254] (-) TimerEvent: {}
+[7.285190] (-) TimerEvent: {}
+[7.386269] (-) TimerEvent: {}
+[7.488001] (-) TimerEvent: {}
+[7.589403] (-) TimerEvent: {}
+[7.691380] (-) TimerEvent: {}
+[7.792920] (-) TimerEvent: {}
+[7.894808] (-) TimerEvent: {}
+[7.996208] (-) TimerEvent: {}
+[8.098218] (-) TimerEvent: {}
+[8.199764] (-) TimerEvent: {}
+[8.301971] (-) TimerEvent: {}
+[8.405483] (-) TimerEvent: {}
+[8.506688] (-) TimerEvent: {}
+[8.608400] (-) TimerEvent: {}
+[8.709635] (-) TimerEvent: {}
+[8.810859] (-) TimerEvent: {}
+[8.912810] (-) TimerEvent: {}
+[9.014484] (-) TimerEvent: {}
+[9.116722] (-) TimerEvent: {}
+[9.217933] (-) TimerEvent: {}
+[9.319745] (-) TimerEvent: {}
+[9.421375] (-) TimerEvent: {}
+[9.522934] (-) TimerEvent: {}
+[9.624531] (-) TimerEvent: {}
+[9.727366] (-) TimerEvent: {}
+[9.828918] (-) TimerEvent: {}
+[9.929903] (-) TimerEvent: {}
+[10.031833] (-) TimerEvent: {}
+[10.133017] (-) TimerEvent: {}
+[10.235821] (-) TimerEvent: {}
+[10.337273] (-) TimerEvent: {}
+[10.438805] (-) TimerEvent: {}
+[10.541129] (-) TimerEvent: {}
+[10.642422] (-) TimerEvent: {}
+[10.743540] (-) TimerEvent: {}
+[10.844727] (-) TimerEvent: {}
+[10.945754] (-) TimerEvent: {}
+[11.046554] (-) TimerEvent: {}
+[11.148164] (-) TimerEvent: {}
+[11.249741] (-) TimerEvent: {}
+[11.350573] (-) TimerEvent: {}
+[11.451475] (-) TimerEvent: {}
+[11.552846] (-) TimerEvent: {}
+[11.655460] (-) TimerEvent: {}
+[11.758602] (-) TimerEvent: {}
+[11.860252] (-) TimerEvent: {}
+[11.962308] (-) TimerEvent: {}
+[12.064977] (-) TimerEvent: {}
+[12.166643] (-) TimerEvent: {}
+[12.268163] (-) TimerEvent: {}
+[12.279479] (navcancel) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable navcancel\x1b[0m\n'}
+[12.369243] (-) TimerEvent: {}
+[12.474476] (-) TimerEvent: {}
+[12.575948] (-) TimerEvent: {}
+[12.677183] (-) TimerEvent: {}
+[12.778269] (-) TimerEvent: {}
+[12.879623] (-) TimerEvent: {}
+[12.980973] (-) TimerEvent: {}
+[13.082397] (-) TimerEvent: {}
+[13.183735] (-) TimerEvent: {}
+[13.284974] (-) TimerEvent: {}
+[13.386179] (-) TimerEvent: {}
+[13.486973] (-) TimerEvent: {}
+[13.588092] (-) TimerEvent: {}
+[13.689865] (-) TimerEvent: {}
+[13.732247] (navcancel) StdoutLine: {'line': b'[100%] Built target navcancel\n'}
+[13.774627] (navcancel) CommandEnded: {'returncode': 0}
+[13.790333] (-) TimerEvent: {}
+[13.884458] (navcancel) JobProgress: {'identifier': 'navcancel', 'progress': 'install'}
+[13.891494] (-) TimerEvent: {}
+[13.914921] (navcancel) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/uc/ros2_humble_ws/src/navcancel/build/navcancel'], 'cwd': '/home/uc/ros2_humble_ws/src/navcancel/build/navcancel', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'uc'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/uc'), ('OLDPWD', '/home/uc/ros2_humble_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('SYSTEMD_EXEC_PID', '1813'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/uc/ros2_humble_ws/src/navcancel/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'uc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'uc'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/uc/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/UC:@/tmp/.ICE-unix/1787,unix/UC:/tmp/.ICE-unix/1787'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c09b6dd3_cf6f_4293_af85_7389bd898a9c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UW7781'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/uc/ros2_humble_ws/src/navcancel/install/navcancel:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uc/ros2_humble_ws/src/navcancel/build/navcancel'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/uc/ros2_humble_ws/src/navcancel/install/navcancel:/opt/ros/humble')]), 'shell': False}
+[13.935830] (navcancel) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.936250] (navcancel) StdoutLine: {'line': b'-- Installing: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/lib/navcancel/navcancel\n'}
+[13.950842] (navcancel) StdoutLine: {'line': b'-- Set runtime path of "/home/uc/ros2_humble_ws/src/navcancel/install/navcancel/lib/navcancel/navcancel" to ""\n'}
+[13.951290] (navcancel) StdoutLine: {'line': b'-- Up-to-date: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/ament_index/resource_index/package_run_dependencies/navcancel\n'}
+[13.951679] (navcancel) StdoutLine: {'line': b'-- Up-to-date: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/ament_index/resource_index/parent_prefix_path/navcancel\n'}
+[13.951988] (navcancel) StdoutLine: {'line': b'-- Up-to-date: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/navcancel/environment/ament_prefix_path.sh\n'}
+[13.952220] (navcancel) StdoutLine: {'line': b'-- Up-to-date: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/navcancel/environment/ament_prefix_path.dsv\n'}
+[13.955379] (navcancel) StdoutLine: {'line': b'-- Up-to-date: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/navcancel/environment/path.sh\n'}
+[13.955826] (navcancel) StdoutLine: {'line': b'-- Up-to-date: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/navcancel/environment/path.dsv\n'}
+[13.956389] (navcancel) StdoutLine: {'line': b'-- Up-to-date: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/navcancel/local_setup.bash\n'}
+[13.956947] (navcancel) StdoutLine: {'line': b'-- Up-to-date: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/navcancel/local_setup.sh\n'}
+[13.958223] (navcancel) StdoutLine: {'line': b'-- Up-to-date: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/navcancel/local_setup.zsh\n'}
+[13.961497] (navcancel) StdoutLine: {'line': b'-- Up-to-date: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/navcancel/local_setup.dsv\n'}
+[13.961912] (navcancel) StdoutLine: {'line': b'-- Installing: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/navcancel/package.dsv\n'}
+[13.962092] (navcancel) StdoutLine: {'line': b'-- Up-to-date: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/ament_index/resource_index/packages/navcancel\n'}
+[13.962411] (navcancel) StdoutLine: {'line': b'-- Up-to-date: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/navcancel/cmake/navcancelConfig.cmake\n'}
+[13.965946] (navcancel) StdoutLine: {'line': b'-- Up-to-date: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/navcancel/cmake/navcancelConfig-version.cmake\n'}
+[13.967041] (navcancel) StdoutLine: {'line': b'-- Up-to-date: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/navcancel/package.xml\n'}
+[13.967660] (navcancel) CommandEnded: {'returncode': 0}
+[13.991999] (-) TimerEvent: {}
+[14.094189] (-) TimerEvent: {}
+[14.195980] (-) TimerEvent: {}
+[14.216785] (navcancel) JobEnded: {'identifier': 'navcancel', 'rc': 0}
+[14.224719] (-) EventReactorShutdown: {}

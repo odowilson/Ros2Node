@@ -1,0 +1,8 @@
+source;share/navcancel/hook/cmake_prefix_path.ps1
+source;share/navcancel/hook/cmake_prefix_path.dsv
+source;share/navcancel/hook/cmake_prefix_path.sh
+source;share/navcancel/local_setup.bash
+source;share/navcancel/local_setup.dsv
+source;share/navcancel/local_setup.ps1
+source;share/navcancel/local_setup.sh
+source;share/navcancel/local_setup.zsh

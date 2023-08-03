@@ -1,0 +1,4 @@
+source;share/navcancel/local_setup.bash
+source;share/navcancel/local_setup.dsv
+source;share/navcancel/local_setup.sh
+source;share/navcancel/local_setup.zsh

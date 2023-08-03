@@ -1,0 +1,67 @@
+[0.000000] (-) TimerEvent: {}
+[0.000275] (navcancel) JobQueued: {'identifier': 'navcancel', 'dependencies': OrderedDict()}
+[0.000358] (navcancel) JobStarted: {'identifier': 'navcancel'}
+[0.014878] (navcancel) JobProgress: {'identifier': 'navcancel', 'progress': 'cmake'}
+[0.018110] (navcancel) JobProgress: {'identifier': 'navcancel', 'progress': 'build'}
+[0.018229] (navcancel) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/uc/ros2_humble_ws/src/navcancel/build/navcancel', '--', '-j4', '-l4'], 'cwd': '/home/uc/ros2_humble_ws/src/navcancel/build/navcancel', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'uc'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/uc'), ('OLDPWD', '/home/uc/ros2_humble_ws/src/navcancel/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('SYSTEMD_EXEC_PID', '1969'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/uc/ros2_humble_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'uc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'uc'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/uc/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/UC:@/tmp/.ICE-unix/1947,unix/UC:/tmp/.ICE-unix/1947'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a63fe312_e344_4227_a161_2dd5ae680a10'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uc/ros2_humble_ws/src/navcancel/build/navcancel'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.072264] (navcancel) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target navcancel\x1b[0m\n'}
+[0.094465] (navcancel) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/navcancel.dir/src/navcancel.cpp.o\x1b[0m\n'}
+[0.099014] (-) TimerEvent: {}
+[0.199882] (-) TimerEvent: {}
+[0.300912] (-) TimerEvent: {}
+[0.401816] (-) TimerEvent: {}
+[0.503071] (-) TimerEvent: {}
+[0.603973] (-) TimerEvent: {}
+[0.704896] (-) TimerEvent: {}
+[0.806024] (-) TimerEvent: {}
+[0.907248] (-) TimerEvent: {}
+[1.008280] (-) TimerEvent: {}
+[1.109311] (-) TimerEvent: {}
+[1.210211] (-) TimerEvent: {}
+[1.311130] (-) TimerEvent: {}
+[1.412150] (-) TimerEvent: {}
+[1.513270] (-) TimerEvent: {}
+[1.614229] (-) TimerEvent: {}
+[1.715323] (-) TimerEvent: {}
+[1.816170] (-) TimerEvent: {}
+[1.917476] (-) TimerEvent: {}
+[2.018411] (-) TimerEvent: {}
+[2.119438] (-) TimerEvent: {}
+[2.220549] (-) TimerEvent: {}
+[2.321732] (-) TimerEvent: {}
+[2.422944] (-) TimerEvent: {}
+[2.524077] (-) TimerEvent: {}
+[2.625227] (-) TimerEvent: {}
+[2.726101] (-) TimerEvent: {}
+[2.802679] (navcancel) StderrLine: {'line': b'\x1b[01m\x1b[K/home/uc/ros2_humble_ws/src/navcancel/src/navcancel.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid cancelAllGoals()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.803012] (navcancel) StderrLine: {'line': b'\x1b[01m\x1b[K/home/uc/ros2_humble_ws/src/navcancel/src/navcancel.cpp:7:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kcreate_client<nav2_msgs::action::NavigateToPose>(const char [18])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.803071] (navcancel) StderrLine: {'line': b'    7 | \x1b[01;31m\x1b[Kcpp_action::create_client<nav2_msgs::action::NavigateToPose>("/navigate_to_pose")\x1b[m\x1b[K;\n'}
+[2.803142] (navcancel) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.803209] (navcancel) StderrLine: {'line': b'\n'}
+[2.804531] (navcancel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:38\x1b[m\x1b[K,\n'}
+[2.804715] (navcancel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/uc/ros2_humble_ws/src/navcancel/src/navcancel.cpp:3\x1b[m\x1b[K:\n'}
+[2.804769] (navcancel) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:44:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp_action::Client<ActionT>::SharedPtr rclcpp_action::create_client(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeGraphInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, rclcpp::CallbackGroup::SharedPtr, const rcl_action_client_options_t&) [with ActionT = nav2_msgs::action::NavigateToPose; typename rclcpp_action::Client<ActionT>::SharedPtr = std::shared_ptr<rclcpp_action::Client<nav2_msgs::action::NavigateToPose> >; rclcpp::node_interfaces::NodeBaseInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>; rclcpp::node_interfaces::NodeGraphInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeGraphInterface>; rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeLoggingInterface>; rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeWaitablesInterface>; std::string = std::__cxx11::basic_string<char>; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>; rcl_action_client_options_t = rcl_action_client_options_s]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.804852] (navcancel) StderrLine: {'line': b'   44 | \x1b[01;36m\x1b[Kcreate_client\x1b[m\x1b[K(\n'}
+[2.804898] (navcancel) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.805175] (navcancel) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:44:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 7 arguments, 1 provided\n'}
+[2.805242] (navcancel) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:105:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Client<ActionT>::SharedPtr rclcpp_action::create_client(NodeT, const string&, rclcpp::CallbackGroup::SharedPtr, const rcl_action_client_options_t&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.805292] (navcancel) StderrLine: {'line': b'  105 | \x1b[01;36m\x1b[Kcreate_client\x1b[m\x1b[K(\n'}
+[2.805335] (navcancel) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.805377] (navcancel) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:105:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.805422] (navcancel) StderrLine: {'line': b'\x1b[01m\x1b[K/home/uc/ros2_humble_ws/src/navcancel/src/navcancel.cpp:7:76:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[2.805466] (navcancel) StderrLine: {'line': b'    7 | \x1b[01;36m\x1b[Kcpp_action::create_client<nav2_msgs::action::NavigateToPose>("/navigate_to_pose")\x1b[m\x1b[K;\n'}
+[2.805508] (navcancel) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.805550] (navcancel) StderrLine: {'line': b'\n'}
+[2.826878] (-) TimerEvent: {}
+[2.927695] (-) TimerEvent: {}
+[3.028904] (-) TimerEvent: {}
+[3.129757] (-) TimerEvent: {}
+[3.230409] (-) TimerEvent: {}
+[3.331315] (-) TimerEvent: {}
+[3.380183] (navcancel) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/navcancel.dir/build.make:76: CMakeFiles/navcancel.dir/src/navcancel.cpp.o] Error 1\n'}
+[3.380971] (navcancel) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navcancel.dir/all] Error 2\n'}
+[3.381177] (navcancel) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.384903] (navcancel) CommandEnded: {'returncode': 2}
+[3.431943] (-) TimerEvent: {}
+[3.444885] (navcancel) JobEnded: {'identifier': 'navcancel', 'rc': 2}
+[3.456275] (-) EventReactorShutdown: {}

@@ -1,0 +1,8 @@
+[01m[K/home/uc/ros2_humble_ws/src/navcancel/src/navcancel.cpp:[m[K In function ‘[01m[Kvoid cancelAllGoals()[m[K’:
+[01m[K/home/uc/ros2_humble_ws/src/navcancel/src/navcancel.cpp:13:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::Client<nav2_msgs::action::NavigateToPose>[m[K’ {aka ‘[01m[Kclass rclcpp_action::Client<nav2_msgs::action::NavigateToPose>[m[K’} has no member named ‘[01m[Kget_action_server[m[K’; did you mean ‘[01m[Kwait_for_action_server[m[K’?
+   13 |     client->[01;31m[Kget_action_server[m[K()->wait_for_result();
+      |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |             [32m[Kwait_for_action_server[m[K
+gmake[2]: *** [CMakeFiles/navcancel.dir/build.make:76: CMakeFiles/navcancel.dir/src/navcancel.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navcancel.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

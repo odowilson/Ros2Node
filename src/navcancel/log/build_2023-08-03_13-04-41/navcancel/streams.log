@@ -1,0 +1,26 @@
+[0.056s] Invoking command in '/home/uc/ros2_humble_ws/src/navcancel/build/navcancel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/uc/ros2_humble_ws/src/navcancel/build/navcancel -- -j4 -l4
+[0.223s] [35m[1mConsolidate compiler generated dependencies of target navcancel[0m
+[0.282s] [ 50%] [32mBuilding CXX object CMakeFiles/navcancel.dir/src/navcancel.cpp.o[0m
+[12.279s] [100%] [32m[1mLinking CXX executable navcancel[0m
+[13.732s] [100%] Built target navcancel
+[13.775s] Invoked command in '/home/uc/ros2_humble_ws/src/navcancel/build/navcancel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/uc/ros2_humble_ws/src/navcancel/build/navcancel -- -j4 -l4
+[13.915s] Invoking command in '/home/uc/ros2_humble_ws/src/navcancel/build/navcancel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/uc/ros2_humble_ws/src/navcancel/build/navcancel
+[13.936s] -- Install configuration: ""
+[13.936s] -- Installing: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/lib/navcancel/navcancel
+[13.951s] -- Set runtime path of "/home/uc/ros2_humble_ws/src/navcancel/install/navcancel/lib/navcancel/navcancel" to ""
+[13.951s] -- Up-to-date: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/ament_index/resource_index/package_run_dependencies/navcancel
+[13.951s] -- Up-to-date: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/ament_index/resource_index/parent_prefix_path/navcancel
+[13.952s] -- Up-to-date: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/navcancel/environment/ament_prefix_path.sh
+[13.954s] -- Up-to-date: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/navcancel/environment/ament_prefix_path.dsv
+[13.955s] -- Up-to-date: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/navcancel/environment/path.sh
+[13.956s] -- Up-to-date: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/navcancel/environment/path.dsv
+[13.956s] -- Up-to-date: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/navcancel/local_setup.bash
+[13.957s] -- Up-to-date: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/navcancel/local_setup.sh
+[13.958s] -- Up-to-date: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/navcancel/local_setup.zsh
+[13.961s] -- Up-to-date: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/navcancel/local_setup.dsv
+[13.961s] -- Installing: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/navcancel/package.dsv
+[13.962s] -- Up-to-date: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/ament_index/resource_index/packages/navcancel
+[13.965s] -- Up-to-date: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/navcancel/cmake/navcancelConfig.cmake
+[13.966s] -- Up-to-date: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/navcancel/cmake/navcancelConfig-version.cmake
+[13.967s] -- Up-to-date: /home/uc/ros2_humble_ws/src/navcancel/install/navcancel/share/navcancel/package.xml
+[13.971s] Invoked command in '/home/uc/ros2_humble_ws/src/navcancel/build/navcancel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/uc/ros2_humble_ws/src/navcancel/build/navcancel

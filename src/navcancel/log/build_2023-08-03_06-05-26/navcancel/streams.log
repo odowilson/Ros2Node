@@ -1,0 +1,56 @@
+[0.015s] Invoking command in '/home/uc/ros2_humble_ws/src/navcancel/build/navcancel': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/uc/ros2_humble_ws/src/navcancel -DCMAKE_INSTALL_PREFIX=/home/uc/ros2_humble_ws/src/navcancel/install/navcancel
+[0.081s] -- The C compiler identification is GNU 11.4.0
+[0.154s] -- The CXX compiler identification is GNU 11.4.0
+[0.167s] -- Detecting C compiler ABI info
+[0.253s] -- Detecting C compiler ABI info - done
+[0.260s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.261s] -- Detecting C compile features
+[0.261s] -- Detecting C compile features - done
+[0.263s] -- Detecting CXX compiler ABI info
+[0.352s] -- Detecting CXX compiler ABI info - done
+[0.359s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.360s] -- Detecting CXX compile features
+[0.360s] -- Detecting CXX compile features - done
+[0.362s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.523s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.601s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.641s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.645s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.653s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.665s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.682s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.748s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.750s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.863s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.889s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.937s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.946s] -- Looking for pthread.h
+[1.026s] -- Looking for pthread.h - found
+[1.026s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.107s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.108s] -- Found Threads: TRUE  
+[1.253s] -- Found nav2_msgs: 1.1.8 (/opt/ros/humble/share/nav2_msgs/cmake)
+[1.594s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.681s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.681s] -- Configured cppcheck include dirs: 
+[1.681s] -- Configured cppcheck exclude dirs and/or files: 
+[1.682s] -- Added test 'lint_cmake' to check CMake code style
+[1.686s] -- Added test 'uncrustify' to check C / C++ code style
+[1.686s] -- Configured uncrustify additional arguments: 
+[1.687s] -- Added test 'xmllint' to check XML markup files
+[1.688s] -- Configuring done
+[1.692s] [31mCMake Error at CMakeLists.txt:16 (add_executable):
+[1.692s]   Cannot find source file:
+[1.692s] 
+[1.692s]     navcancel.cpp
+[1.692s] 
+[1.692s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[1.692s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[1.692s] 
+[1.692s] [0m
+[1.693s] [31mCMake Error at CMakeLists.txt:16 (add_executable):
+[1.693s]   No SOURCES given to target: navcancel
+[1.693s] 
+[1.693s] [0m
+[1.693s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.703s] Invoked command in '/home/uc/ros2_humble_ws/src/navcancel/build/navcancel' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/uc/ros2_humble_ws/src/navcancel -DCMAKE_INSTALL_PREFIX=/home/uc/ros2_humble_ws/src/navcancel/install/navcancel
